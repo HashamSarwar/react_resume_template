@@ -1,48 +1,52 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    background-color:beige;
     
 }
 
 .page {
+    /* width: 21cm; */
     width: 21cm;
     min-height: 29.7cm;
-    padding: 2cm;
+    padding: 1cm;
     margin: 1cm auto;
-    border: 1px #D3D3D3 solid;
+    border: 1px #030000 solid;
     border-radius: 5px;
     background: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+.name{
+    font-size: 24px;
+}
+
+.title{
+    font-size: 12px;
 }
 
 .personal-detail{
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: flex-end;
-    padding-top: 6%;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 2%;
 }
 .name-and-title{
     margin-right: auto;
 }
 .contact-detail{
     margin-left: auto;
-    font-size: 14px;
-    margin-right: 2rem;
+    font-size: 12px;
+    margin-right: 1rem;
 }
 .contact-table-label{
-padding-right: 2rem;
+padding-right: 1rem;
 }
 .contact-table-value{
     margin-left: 2%;
 }
 .profile-image{
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     border: 2px solid black;
     padding: 2px;
     margin: 2px;
@@ -50,29 +54,27 @@ padding-right: 2rem;
 
 .work-experience{
     margin-top: 2rem;
-    margin-left: 2rem;
     margin-right: 2rem;
     display: flex;
     align-items: center;
 }
 .work-experience-line{
-    width: 10%;
-    height: 12px;
-    background-color: blue;
+    width: 12%;
+    height: 10px;
     margin-right: 5%;
+    background-color: blue;
 }
 .headings{
     color: blue;
+    font-size: 20px;
 }
 .sections-table{
     margin-top: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 .sections-table-label{
+    width: 7em;
     display: flex;
-    flex-wrap: wrap;
-    width: 12vw;
+    font-size: 12px;
     
 }
 .sections-table-value{
@@ -92,4 +94,8 @@ padding-right: 2rem;
 .social-icons{
     width: 32px;
     height: 32px;
+}
+
+.demo{
+    background-color: blueviolet;
 }

@@ -11,13 +11,13 @@ export default function Resume() {
   return (
     <>
 
-    {/* <div className="page">
+    <div className="page">
 
-    </div> */}
+  
       <div className="personal-detail">
         <div className="name-and-title">
-          <h1>Hasham Sarwar</h1>
-          <h3>Electrical Engineer</h3>
+          <h2 className="name">Hasham Sarwar</h2>
+          <h4 className="title">Electrical Engineer</h4>
         </div>
         <div className="contact-detail">
           <table border="0">
@@ -348,6 +348,16 @@ by Pakistan Engineering Council.</h3>
            
            
           </table>
+        </div>
+
+
+
+
+
+
+
+
+
         </div>
     </>
   );
